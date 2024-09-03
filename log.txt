@@ -1,0 +1,596 @@
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: /Users/jjlharrison/.sdkman/candidates/maven/current
+Java version: 22.0.1, vendor: Eclipse Adoptium, runtime: /Users/jjlharrison/.sdkman/candidates/java/22.0.1-tem
+Default locale: en_GB, platform encoding: UTF-8
+OS name: "mac os x", version: "14.6.1", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /Users/jjlharrison/.sdkman/candidates/maven/current/conf/settings.xml
+[DEBUG] Reading user settings from /Users/jjlharrison/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/jjlharrison/.sdkman/candidates/maven/current/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/jjlharrison/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/jjlharrison/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/jjlharrison/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ line 20, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-pmd-plugin/maven-metadata.xml in local (/Users/jjlharrison/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-pmd-plugin/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-pmd-plugin/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-pmd-plugin to 3.25.0 from repository central (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, releases)
+[DEBUG] Resolving plugin prefix pmd from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix pmd to org.apache.maven.plugins:maven-pmd-plugin from POM com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [pmd:pmd]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------< com.jjlharrison:pmd-5190-reproducer >-----------------
+[INFO] Building pmd-5190-reproducer 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Resolving plugin prefix pmd from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix pmd to org.apache.maven.plugins:maven-pmd-plugin from POM com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.jjlharrison:pmd-5190-reproducer:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, releases), snapshots (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, snapshots), marshmallow (https://marshmallow.jfrog.io/marshmallow/uk-auto-release-local, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, releases), snapshots (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, snapshots)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-pmd-plugin:3.25.0:pmd (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aggregate default-value="false">${aggregate}</aggregate>
+  <analysisCache default-value="false">${pmd.analysisCache}</analysisCache>
+  <analysisCacheLocation default-value="${project.build.directory}/pmd/pmd.cache">${pmd.analysisCacheLocation}</analysisCacheLocation>
+  <benchmark default-value="false">${pmd.benchmark}</benchmark>
+  <benchmarkOutputFilename default-value="${project.build.directory}/pmd-benchmark.txt">${pmd.benchmarkOutputFilename}</benchmarkOutputFilename>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <excludeFromFailureFile default-value="">${pmd.excludeFromFailureFile}</excludeFromFailureFile>
+  <format default-value="xml">${format}</format>
+  <includeTests default-value="false"/>
+  <includeXmlInReports default-value="false"/>
+  <inputEncoding default-value="${project.build.sourceEncoding}">${encoding}</inputEncoding>
+  <language default-value="java"/>
+  <linkXRef default-value="true">${linkXRef}</linkXRef>
+  <locale default-value="default"/>
+  <minimumPriority default-value="5">${minimumPriority}</minimumPriority>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <outputDirectory default-value="${project.build.directory}/reports"/>
+  <outputEncoding default-value="${project.reporting.outputEncoding}">${outputEncoding}</outputEncoding>
+  <outputFormat>${output.format}</outputFormat>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <remoteProjectRepositories default-value="${project.remoteProjectRepositories}"/>
+  <renderProcessingErrors default-value="true">${pmd.renderProcessingErrors}</renderProcessingErrors>
+  <renderRuleViolationPriority default-value="true">${pmd.renderRuleViolationPriority}</renderRuleViolationPriority>
+  <renderSuppressedViolations default-value="true">${pmd.renderSuppressedViolations}</renderSuppressedViolations>
+  <renderViolationsByPriority default-value="true">${pmd.renderViolationsByPriority}</renderViolationsByPriority>
+  <repoSession default-value="${repositorySystemSession}"/>
+  <rulesetsTargetDirectory default-value="${project.build.directory}/pmd/rulesets">${pmd.rulesetsTargetDirectory}</rulesetsTargetDirectory>
+  <session default-value="${session}"/>
+  <showPmdLog default-value="true">${pmd.showPmdLog}</showPmdLog>
+  <siteDirectory default-value="${basedir}/src/site"/>
+  <skip default-value="false">${pmd.skip}</skip>
+  <skipEmptyReport default-value="false"/>
+  <skipPmdError default-value="true">${pmd.skipPmdError}</skipPmdError>
+  <suppressMarker>${pmd.suppressMarker}</suppressMarker>
+  <targetDirectory>${project.build.directory}</targetDirectory>
+  <targetJdk default-value="${maven.compiler.source}">${targetJdk}</targetJdk>
+  <testSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <typeResolution default-value="true">${pmd.typeResolution}</typeResolution>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=13833, ConflictMarker.markTime=92917, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=6292, ConflictIdSorter.topsortTime=134083, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=442625, ConflictResolver.conflictItemCount=0, DfDependencyCollector.collectTime=56583, DfDependencyCollector.transformTime=1163750}
+[DEBUG] com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] --- pmd:3.25.0:pmd (default-cli) @ pmd-5190-reproducer ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=638000, ConflictMarker.markTime=180083, ConflictMarker.nodeCount=232, ConflictIdSorter.graphTime=219667, ConflictIdSorter.topsortTime=54875, ConflictIdSorter.conflictIdCount=83, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3705834, ConflictResolver.conflictItemCount=223, DfDependencyCollector.collectTime=242156083, DfDependencyCollector.transformTime=4826458}
+[DEBUG] org.apache.maven.plugins:maven-pmd-plugin:jar:3.25.0
+[DEBUG]    net.sourceforge.pmd:pmd-core:jar:7.5.0:runtime
+[DEBUG]       org.slf4j:jul-to-slf4j:jar:1.7.36:runtime
+[DEBUG]       org.antlr:antlr4-runtime:jar:4.9.3:runtime
+[DEBUG]       net.sf.saxon:Saxon-HE:jar:12.5:runtime
+[DEBUG]          org.xmlresolver:xmlresolver:jar:5.2.2:runtime
+[DEBUG]             org.apache.httpcomponents.client5:httpclient5:jar:5.1.3:runtime
+[DEBUG]                org.apache.httpcomponents.core5:httpcore5-h2:jar:5.1.3:runtime
+[DEBUG]             org.apache.httpcomponents.core5:httpcore5:jar:5.1.3:runtime
+[DEBUG]          org.xmlresolver:xmlresolver:jar:data:5.2.2:runtime
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.14.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.7:runtime
+[DEBUG]       com.google.code.gson:gson:jar:2.10.1:runtime
+[DEBUG]       org.checkerframework:checker-qual:jar:2.11.1:runtime
+[DEBUG]       org.pcollections:pcollections:jar:4.0.2:runtime
+[DEBUG]       com.github.oowekyala.ooxml:nice-xml-messages:jar:3.1:runtime
+[DEBUG]    net.sourceforge.pmd:pmd-java:jar:7.5.0:runtime
+[DEBUG]    net.sourceforge.pmd:pmd-javascript:jar:7.5.0:runtime
+[DEBUG]       org.mozilla:rhino:jar:1.7.15:runtime
+[DEBUG]    net.sourceforge.pmd:pmd-jsp:jar:7.5.0:runtime
+[DEBUG]    org.apache.maven.shared:maven-artifact-transfer:jar:0.13.1:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]          org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]                org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-util:jar:1.4.1:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:2.0.0-M12:compile
+[DEBUG]    org.apache.maven.doxia:doxia-core:jar:2.0.0-M12:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       commons-io:commons-io:jar:2.16.1:compile
+[DEBUG]       org.apache.commons:commons-text:jar:1.12.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:4.0.0-M15:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:4.0.0-M12:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-model:jar:2.0.0-M19:compile
+[DEBUG]       org.apache.maven.doxia:doxia-integration-tools:jar:2.0.0-M19:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:2.0.0-M19:compile
+[DEBUG]          org.apache.maven.doxia:doxia-skin-model:jar:2.0.0-M19:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml5:jar:2.0.0-M12:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:2.1.0:compile
+[DEBUG]          org.apache.velocity:velocity-engine-core:jar:2.3:compile
+[DEBUG]          org.apache.velocity.tools:velocity-tools-generic:jar:3.1:compile
+[DEBUG]             commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[DEBUG]                commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]                commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]             org.apache.commons:commons-digester3:jar:3.2:compile
+[DEBUG]             com.github.cliftonlabs:json-simple:jar:3.0.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:2.0.0-M12:runtime
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:2.0.0-M12:runtime
+[DEBUG]       org.apache.maven:maven-archiver:jar:3.6.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-archiver:jar:4.9.2:compile
+[DEBUG]             org.codehaus.plexus:plexus-io:jar:3.4.2:compile
+[DEBUG]             org.apache.commons:commons-compress:jar:1.26.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.16.1:compile
+[DEBUG]             org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]             org.tukaani:xz:jar:1.9:runtime
+[DEBUG]             com.github.luben:zstd-jni:jar:1.5.5-11:runtime
+[DEBUG]       org.apache.maven.resolver:maven-resolver-api:jar:1.4.1:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M3:compile (version managed from default)
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M3:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-resources:jar:1.3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-xml:jar:3.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-pmd-plugin:3.25.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-pmd-plugin:3.25.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-pmd-plugin:3.25.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-pmd-plugin:jar:3.25.0
+[DEBUG]   Included: net.sourceforge.pmd:pmd-core:jar:7.5.0
+[DEBUG]   Included: org.slf4j:jul-to-slf4j:jar:1.7.36
+[DEBUG]   Included: org.antlr:antlr4-runtime:jar:4.9.3
+[DEBUG]   Included: net.sf.saxon:Saxon-HE:jar:12.5
+[DEBUG]   Included: org.xmlresolver:xmlresolver:jar:5.2.2
+[DEBUG]   Included: org.apache.httpcomponents.client5:httpclient5:jar:5.1.3
+[DEBUG]   Included: org.apache.httpcomponents.core5:httpcore5-h2:jar:5.1.3
+[DEBUG]   Included: org.apache.httpcomponents.core5:httpcore5:jar:5.1.3
+[DEBUG]   Included: org.xmlresolver:xmlresolver:jar:data:5.2.2
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.14.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.7
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.10.1
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:2.11.1
+[DEBUG]   Included: org.pcollections:pcollections:jar:4.0.2
+[DEBUG]   Included: com.github.oowekyala.ooxml:nice-xml-messages:jar:3.1
+[DEBUG]   Included: net.sourceforge.pmd:pmd-java:jar:7.5.0
+[DEBUG]   Included: net.sourceforge.pmd:pmd-javascript:jar:7.5.0
+[DEBUG]   Included: org.mozilla:rhino:jar:1.7.15
+[DEBUG]   Included: net.sourceforge.pmd:pmd-jsp:jar:7.5.0
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.13.1
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.4.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:2.0.0-M12
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:2.0.0-M12
+[DEBUG]   Included: commons-io:commons-io:jar:2.16.1
+[DEBUG]   Included: org.apache.commons:commons-text:jar:1.12.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:4.0.0-M15
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:4.0.0-M12
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-model:jar:2.0.0-M19
+[DEBUG]   Included: org.apache.maven.doxia:doxia-integration-tools:jar:2.0.0-M19
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:2.0.0-M19
+[DEBUG]   Included: org.apache.maven.doxia:doxia-skin-model:jar:2.0.0-M19
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml5:jar:2.0.0-M12
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:2.1.0
+[DEBUG]   Included: org.apache.velocity:velocity-engine-core:jar:2.3
+[DEBUG]   Included: org.apache.velocity.tools:velocity-tools-generic:jar:3.1
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.9.4
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG]   Included: org.apache.commons:commons-digester3:jar:3.2
+[DEBUG]   Included: com.github.cliftonlabs:json-simple:jar:3.0.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:2.0.0-M12
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:2.0.0-M12
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.6.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:4.9.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.4.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.26.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.16.1
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.9
+[DEBUG]   Included: com.github.luben:zstd-jni:jar:1.5.5-11
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M3
+[DEBUG]   Included: org.codehaus.plexus:plexus-resources:jar:1.3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-pmd-plugin:3.25.0:pmd from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-pmd-plugin:3.25.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@b1a58a3]
+[DEBUG] Initializing Velocity, Calling init()...
+[DEBUG] Starting Apache Velocity v2.3
+[DEBUG] Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+[DEBUG] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+[DEBUG] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+[DEBUG] FileResourceLoader: adding path ''
+[DEBUG] initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+[DEBUG] Created '20' parsers.
+[DEBUG] "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+[DEBUG] Could not load resource 'velocimacros.vtl' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+[DEBUG] Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+[DEBUG] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+[DEBUG] Old default library VM_global_library.vm not found.
+[DEBUG] allowInline = true: VMs can be defined inline in templates
+[DEBUG] allowInlineToOverride = true: VMs defined inline may replace previous VM definitions
+[DEBUG] allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+[DEBUG] autoload off: VM system will not automatically reload global library macros
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-pmd-plugin:3.25.0:pmd:default-cli' with basic configurator -->
+[DEBUG]   (f) aggregate = false
+[DEBUG]   (f) analysisCache = false
+[DEBUG]   (f) analysisCacheLocation = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/pmd/pmd.cache
+[DEBUG]   (f) benchmark = false
+[DEBUG]   (f) benchmarkOutputFilename = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/pmd-benchmark.txt
+[DEBUG]   (f) compileSourceRoots = [/Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/main/java]
+[DEBUG]   (f) format = xml
+[DEBUG]   (f) includeTests = false
+[DEBUG]   (f) includeXmlInReports = false
+[DEBUG]   (f) inputEncoding = UTF-8
+[DEBUG]   (f) language = java
+[DEBUG]   (f) linkXRef = true
+[DEBUG]   (f) locale = default
+[DEBUG]   (f) minimumPriority = 5
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-pmd-plugin:3.25.0:pmd {execution: default-cli}
+[DEBUG]   (f) outputDirectory = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/reports
+[DEBUG]   (f) project = MavenProject: com.jjlharrison:pmd-5190-reproducer:1.0-SNAPSHOT @ /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: com.jjlharrison:pmd-5190-reproducer:1.0-SNAPSHOT @ /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/pom.xml]
+[DEBUG]   (f) remoteProjectRepositories = [central (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, releases), snapshots (https://marshmallow.jfrog.io/artifactory/marshmallow-virtual, default, snapshots), marshmallow (https://marshmallow.jfrog.io/marshmallow/uk-auto-release-local, default, releases)]
+[DEBUG]   (f) renderProcessingErrors = true
+[DEBUG]   (f) renderRuleViolationPriority = true
+[DEBUG]   (f) renderSuppressedViolations = true
+[DEBUG]   (f) renderViolationsByPriority = true
+[DEBUG]   (f) repoSession = org.eclipse.aether.DefaultRepositorySystemSession@3ba1308d
+[DEBUG]   (f) rulesetsTargetDirectory = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/pmd/rulesets
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5a08b084
+[DEBUG]   (f) showPmdLog = true
+[DEBUG]   (f) siteDirectory = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipEmptyReport = false
+[DEBUG]   (f) skipPmdError = true
+[DEBUG]   (f) targetDirectory = /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target
+[DEBUG]   (f) targetJdk = 22
+[DEBUG]   (f) testSourceRoots = [/Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/test/java]
+[DEBUG]   (f) typeResolution = true
+[DEBUG] -- end configuration --
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[DEBUG] Exclusions: **/*~,**/#*#,**/.#*,**/%*%,**/._*,**/CVS,**/CVS/**,**/.cvsignore,**/RCS,**/RCS/**,**/SCCS,**/SCCS/**,**/vssver.scc,**/project.pj,**/.svn,**/.svn/**,**/.arch-ids,**/.arch-ids/**,**/.bzr,**/.bzr/**,**/.MySCMServerInfo,**/.DS_Store,**/.metadata,**/.metadata/**,**/.hg,**/.hg/**,**/.git,**/.git/**,**/.gitignore,**/BitKeeper,**/BitKeeper/**,**/ChangeSet,**/ChangeSet/**,**/_darcs,**/_darcs/**,**/.darcsrepo,**/.darcsrepo/**,**/-darcs-backup*,**/.darcs-temp-mail
+[DEBUG] Inclusions: **/*.java
+[DEBUG] Searching for files in directory /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/main/java
+[DEBUG] Preparing ruleset: /rulesets/java/maven-pmd-plugin-default.xml
+[DEBUG] Before: /rulesets/java/maven-pmd-plugin-default.xml After: 001-maven-pmd-plugin-default.xml
+[DEBUG] The resource '/rulesets/java/maven-pmd-plugin-default.xml' was not found with resourceLoader 'org.codehaus.plexus.resource.loader.FileResourceLoader'
+[DEBUG] The resource '/rulesets/java/maven-pmd-plugin-default.xml' was not found with resourceLoader 'org.codehaus.plexus.resource.loader.JarResourceLoader'
+[DEBUG] The resource '/rulesets/java/maven-pmd-plugin-default.xml' was found as 'jar:file:/Users/jjlharrison/.m2/repository/org/apache/maven/plugins/maven-pmd-plugin/3.25.0/maven-pmd-plugin-3.25.0.jar!/rulesets/java/maven-pmd-plugin-default.xml'
+[DEBUG] Using aux classpath: [/Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/classes]
+[INFO] PMD version: 7.5.0
+[DEBUG] Using language java+version:22
+[DEBUG] Adding classpath entry: </Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/classes>
+[DEBUG] Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(ecmascript, java, jsp))
+[DEBUG] Rules loaded from /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/pmd/rulesets/001-maven-pmd-plugin-default.xml:
+[DEBUG] - AvoidUsingHardCodedIP (Java)
+[DEBUG] - CheckResultSet (Java)
+[DEBUG] - PrimitiveWrapperInstantiation (Java)
+[DEBUG] - UnusedFormalParameter (Java)
+[DEBUG] - UnusedLocalVariable (Java)
+[DEBUG] - UnusedPrivateField (Java)
+[DEBUG] - UnusedPrivateMethod (Java)
+[DEBUG] - EmptyControlStatement (Java)
+[DEBUG] - ExtendsObject (Java)
+[DEBUG] - ForLoopShouldBeWhileLoop (Java)
+[DEBUG] - TooManyStaticImports (Java)
+[DEBUG] - UnnecessaryFullyQualifiedName (Java)
+[DEBUG] - UnnecessaryImport (Java)
+[DEBUG] - UnnecessaryModifier (Java)
+[DEBUG] - UnnecessaryReturn (Java)
+[DEBUG] - UnnecessarySemicolon (Java)
+[DEBUG] - UselessParentheses (Java)
+[DEBUG] - UselessQualifiedThis (Java)
+[DEBUG] - CollapsibleIfStatements (Java)
+[DEBUG] - SimplifiedTernary (Java)
+[DEBUG] - UselessOverridingMethod (Java)
+[DEBUG] - AvoidBranchingStatementAsLastInLoop (Java)
+[DEBUG] - AvoidDecimalLiteralsInBigDecimalConstructor (Java)
+[DEBUG] - AvoidMultipleUnaryOperators (Java)
+[DEBUG] - AvoidUsingOctalValues (Java)
+[DEBUG] - BrokenNullCheck (Java)
+[DEBUG] - CheckSkipResult (Java)
+[DEBUG] - ClassCastExceptionWithToArray (Java)
+[DEBUG] - DontUseFloatTypeForLoopIndices (Java)
+[DEBUG] - EmptyCatchBlock (Java)
+[DEBUG] - JumbledIncrementer (Java)
+[DEBUG] - MisplacedNullCheck (Java)
+[DEBUG] - OverrideBothEqualsAndHashcode (Java)
+[DEBUG] - ReturnFromFinallyBlock (Java)
+[DEBUG] - UnconditionalIfStatement (Java)
+[DEBUG] - UnnecessaryConversionTemporary (Java)
+[DEBUG] - UnusedNullCheckInEquals (Java)
+[DEBUG] - UselessOperationOnImmutable (Java)
+[DEBUG] - AvoidThreadGroup (Java)
+[DEBUG] - DontCallThreadRun (Java)
+[DEBUG] - DoubleCheckedLocking (Java)
+[DEBUG] - BigIntegerInstantiation (Java)
+[DEBUG] Executing PMD...
+[DEBUG] Using analysis classloader: ClasspathClassLoader[[file:/Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/target/classes/] jrt-fs: null parent: ClassRealm[plugin>org.apache.maven.plugins:maven-pmd-plugin:3.25.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@b1a58a3]]
+[DEBUG] Unable to use RuleChain for XPath: .[count(ImportDeclaration[@Static = true()]) > $maximumStaticImports]
+[DEBUG] Unable to use RuleChain for XPath: //FinallyClause//ReturnStatement except //FinallyClause//(MethodDeclaration|LambdaExpression)//ReturnStatement
+[DEBUG] Unable to use RuleChain for XPath: .[count(ImportDeclaration[@Static = true()]) > $maximumStaticImports]
+[DEBUG] Unable to use RuleChain for XPath: .[count(ImportDeclaration[@Static = true()]) > $maximumStaticImports]
+[DEBUG] Unable to use RuleChain for XPath: //FinallyClause//ReturnStatement except //FinallyClause//(MethodDeclaration|LambdaExpression)//ReturnStatement
+[DEBUG] Unable to use RuleChain for XPath: //FinallyClause//ReturnStatement except //FinallyClause//(MethodDeclaration|LambdaExpression)//ReturnStatement
+[DEBUG] Using rule chain for XPath rule: ExtendsObject (Code Style)
+[DEBUG] Using rule chain for XPath rule: ForLoopShouldBeWhileLoop (Code Style)
+[DEBUG] no rule chain for XPath rule: TooManyStaticImports (Code Style)
+[DEBUG] Using rule chain for XPath rule: UnnecessarySemicolon (Code Style)
+[DEBUG] Using rule chain for XPath rule: UselessQualifiedThis (Code Style)
+[DEBUG] Using rule chain for XPath rule: CollapsibleIfStatements (Design)
+[DEBUG] Using rule chain for XPath rule: SimplifiedTernary (Design)
+[DEBUG] Using rule chain for XPath rule: AvoidDecimalLiteralsInBigDecimalConstructor (Error Prone)
+[DEBUG] Using rule chain for XPath rule: AvoidMultipleUnaryOperators (Error Prone)
+[DEBUG] Using rule chain for XPath rule: ClassCastExceptionWithToArray (Error Prone)
+[DEBUG] Using rule chain for XPath rule: DontUseFloatTypeForLoopIndices (Error Prone)
+[DEBUG] Using rule chain for XPath rule: EmptyCatchBlock (Error Prone)
+[DEBUG] Using rule chain for XPath rule: JumbledIncrementer (Error Prone)
+[DEBUG] Using rule chain for XPath rule: MisplacedNullCheck (Error Prone)
+[DEBUG] no rule chain for XPath rule: ReturnFromFinallyBlock (Error Prone)
+[DEBUG] Using rule chain for XPath rule: UnconditionalIfStatement (Error Prone)
+[DEBUG] Using rule chain for XPath rule: UnnecessaryConversionTemporary (Error Prone)
+[DEBUG] Using rule chain for XPath rule: UnusedNullCheckInEquals (Error Prone)
+[DEBUG] Using rule chain for XPath rule: AvoidThreadGroup (Multithreading)
+[DEBUG] Using rule chain for XPath rule: DontCallThreadRun (Multithreading)
+[DEBUG] PMD finished. Found 0 violations.
+[WARNING] There are 1 PMD processing errors:
+[WARNING] /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/main/java/com/jjlharrison/Main.java: ContextedRuntimeException: java.lang.NullPointerException: Cannot invoke "net.sourceforge.pmd.lang.java.types.JTypeMirror.equals(Object)" because "asSuperOfS" is null
+Exception Context:
+	[1:Resolving type of=!debug only! [MethodCall:11:16]Optional.ofNullable(
+            getOnlyElement(queryForKey(key), null)
+        )]
+	[2:Location=!debug only! /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/main/java/com/jjlharrison/Main.java:11:16]
+---------------------------------
+org.apache.commons.lang3.exception.ContextedRuntimeException: java.lang.NullPointerException: Cannot invoke "net.sourceforge.pmd.lang.java.types.JTypeMirror.equals(Object)" because "asSuperOfS" is null
+Exception Context:
+	[1:Resolving type of=!debug only! [MethodCall:11:16]Optional.ofNullable(
+            getOnlyElement(queryForKey(key), null)
+        )]
+	[2:Location=!debug only! /Users/jjlharrison/Projects/Marshmallow/pmd-5190-reproducer/src/main/java/com/jjlharrison/Main.java:11:16]
+---------------------------------
+	at net.sourceforge.pmd.util.AssertionUtil.contexted(AssertionUtil.java:236)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:54)
+	at net.sourceforge.pmd.lang.java.ast.ASTMethodCall.getTypeMirror(ASTMethodCall.java:22)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:39)
+	at net.sourceforge.pmd.lang.java.ast.ASTMethodCall.getTypeMirror(ASTMethodCall.java:22)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.lambda$forceTypeResolutionPhase$0(InternalApiBridge.java:92)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at net.sourceforge.pmd.lang.ast.internal.IteratorBasedNStream.forEach(IteratorBasedNStream.java:102)
+	at net.sourceforge.pmd.lang.java.ast.InternalApiBridge.forceTypeResolutionPhase(InternalApiBridge.java:90)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.lambda$process$3(JavaAstProcessor.java:135)
+	at net.sourceforge.pmd.benchmark.TimeTracker.bench(TimeTracker.java:163)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:135)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:166)
+	at net.sourceforge.pmd.lang.java.internal.JavaAstProcessor.process(JavaAstProcessor.java:150)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:69)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.parseImpl(JavaParser.java:25)
+	at net.sourceforge.pmd.lang.ast.impl.javacc.JjtreeParserAdapter.parse(JjtreeParserAdapter.java:36)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.parse(PmdRunnable.java:112)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.processSource(PmdRunnable.java:132)
+	at net.sourceforge.pmd.lang.impl.PmdRunnable.run(PmdRunnable.java:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke "net.sourceforge.pmd.lang.java.types.JTypeMirror.equals(Object)" because "asSuperOfS" is null
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.commonSuperWithDiffParameterization(Infer.java:827)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.needsEagerInstantiation(Infer.java:794)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.shouldPropagateOutwards(Infer.java:680)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.tryToSolve(Infer.java:634)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateImpl(Infer.java:599)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMaybeNoInfer(Infer.java:572)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMethod(Infer.java:416)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMethodOrCtor(Infer.java:396)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.logInference(Infer.java:379)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.finishInstantiation(Infer.java:359)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.determineInvocationTypeOrFail(Infer.java:275)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.ExprCheckHelper.isInvocationCompatible(ExprCheckHelper.java:166)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.ExprCheckHelper.isCompatible(ExprCheckHelper.java:155)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.addBoundOrDefer(Infer.java:941)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.addArgsConstraints(Infer.java:899)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateImpl(Infer.java:594)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMaybeNoInfer(Infer.java:572)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMethod(Infer.java:416)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.instantiateMethodOrCtor(Infer.java:396)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.logInference(Infer.java:379)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.computeCompileTimeDecl(Infer.java:319)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.getCompileTimeDecl(Infer.java:281)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.goToInvocationWithFallback(Infer.java:214)
+	at net.sourceforge.pmd.lang.java.types.internal.infer.Infer.inferInvocationRecursively(Infer.java:176)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.PolyResolution.inferInvocation(PolyResolution.java:263)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.PolyResolution.polyTypeOtherCtx(PolyResolution.java:135)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.PolyResolution.computePolyType(PolyResolution.java:125)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.handlePoly(LazyTypeResolver.java:358)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visit(LazyTypeResolver.java:363)
+	at net.sourceforge.pmd.lang.java.types.ast.internal.LazyTypeResolver.visit(LazyTypeResolver.java:103)
+	at net.sourceforge.pmd.lang.java.ast.ASTMethodCall.acceptVisitor(ASTMethodCall.java:71)
+	at net.sourceforge.pmd.lang.java.ast.AbstractJavaTypeNode.getTypeMirror(AbstractJavaTypeNode.java:51)
+	... 23 more
+
+[DEBUG] Removing excluded violations. Using 0 configured exclusions.
+[DEBUG] Excluded 0 violations.
+[DEBUG] Computing site model of 'com.jjlharrison:pmd-5190-reproducer:jar:1.0-SNAPSHOT' for default locale
+[DEBUG] No site descriptor
+[DEBUG] Using default site descriptor
+[INFO] Rendering content with org.apache.maven.skins:maven-fluido-skin:jar:2.0.0-M9 skin
+[DEBUG] Skin doxia-sitetools prerequisite: 2.0.0-M18, current: 2.0.0-M19, matched = true
+[DEBUG] Unknown source: Modified invalid anchor name 'PMD Results' to 'PMD_Results'
+[DEBUG] Unknown source: Modified invalid anchor name 'Processing Errors' to 'Processing_Errors'
+[DEBUG] Processing Velocity for template META-INF/maven/site.vm on null
+[DEBUG] added VM topMenu: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM topLinks: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM link: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM topLink: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM image: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM banner: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM links: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM breadcrumbs: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM displayTree: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM menuItem: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM mainMenu: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM copyright: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM publishDate: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM builtByLogo: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM googleAnalytics: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM matomo: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM googleSearch: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM forkMeOnGitHubHead: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM forkMeOnGitHub: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM prjProfile: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM facebookLoadSDK: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM facebookLike: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM followTwitter: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM generatedBy: source=org.apache.velocity.Template@7b9b6915
+[DEBUG] added VM anchorJS: source=org.apache.velocity.Template@7b9b6915
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.774 s
+[INFO] Finished at: 2024-09-03T22:00:08+01:00
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
